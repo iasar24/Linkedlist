@@ -10,6 +10,7 @@ struct node{
         
     }
 };
+//Arth Rawat Github
 struct linkedlist{
     node*head;
     linkedlist(){
@@ -24,6 +25,7 @@ struct linkedlist{
             next=current->next;
             current->next=prev;
             prev=current;
+            //Arth Git
             current=next;
             
         }
